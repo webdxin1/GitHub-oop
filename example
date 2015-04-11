@@ -1,0 +1,8 @@
+include 'db.class.php';
+# set new class
+$db = new DbaseMySQL();
+# connecting to database
+$db->mySQLConnect();
+
+# closing from database
+$db->mysqlclose();
