@@ -10,5 +10,5 @@ class Circle{
 }
 $area = new Circle;
 echo $area->Area(100);
-
+echo $area->Area(300);
 ?>
